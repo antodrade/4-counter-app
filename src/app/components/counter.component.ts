@@ -3,10 +3,10 @@ import { Store } from '@ngrx/store';
 import { decrement, increment, reset } from '../store/items.action';
 
 @Component({
-  selector: 'app-counter',
-  standalone: true,
-  imports: [],
-  templateUrl: './counter.component.html'
+   standalone: true,
+    selector: 'app-counter',
+    imports: [],
+    templateUrl: './counter.component.html'
 })
 export class CounterComponent {
 
